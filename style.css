@@ -1,0 +1,709 @@
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    box-sizing: border-box;
+
+}
+
+main{
+    margin: auto;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 15px;
+}
+
+.homelogo {
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 90px;
+}
+
+.homelogo {
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    object-fit: contain;
+
+}
+
+.search {
+    background-color: #222222;
+    width: 30vw;
+    height: 25px;
+    margin: 15px;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.searchlogo {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.se {
+    background-color: #222222;
+    border: 1px solid #222222;
+    padding: 0px;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    width: 20vw;
+    height: 3vh;
+}
+
+.da {
+    color: rgb(151, 150, 150);
+    font-size: x-large;
+    padding-right: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.opt {
+    margin-top: 7px;
+    padding-left:20vw ;
+
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+li {
+    color: rgb(151, 150, 150);
+    list-style: none;
+    font-weight: bolder;
+    font-size: 90%;
+    font-family: "Inter", sans-serif;
+}
+
+.d {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 150%;
+    margin: 13px;
+
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+
+.trend {
+    color: white;
+    margin: 25px 40px;
+    font-family: "Inter", sans-serif;
+
+
+
+}
+
+.show {
+    color: rgb(151, 150, 150);
+    margin: 50px;
+    margin-left: 620px;
+    margin-right: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.it {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    gap: 8px;
+
+}
+
+.side {
+    width: 24vw;
+    height: 75vh;
+    color: gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color:#121212;
+
+
+}
+
+.mid {
+    width: 50vw;
+    height: 75vh;
+    color: gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #121212;
+    font-family: "Inter", sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color:rgb(71, 71, 71)  #121212;
+    scrollbar-arrow-color: #121212 ;
+
+
+}
+
+
+
+
+
+.play {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    position: relative;
+}
+ 
+input[type="range"] {
+    width: 25vw;
+    height: 5px;
+    appearance: none;
+    background: #535353;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background:white; 
+    cursor: pointer;
+}
+
+
+
+.none{
+    display: none;
+
+}
+
+.seek{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
+}
+
+.start,.end{
+    color: gray;
+    font-family: "Inter", sans-serif;
+
+}
+
+.lib{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 4vw;
+    justify-content: center;
+
+
+
+}
+
+.Options{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color:rgb(151, 150, 150);
+    font-family: "Inter", sans-serif;
+    font-size: 90%;
+    font-weight: 600;
+
+}
+
+.log{
+    background-color: white;
+    color:black;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.l{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 100%;
+    font-weight: 900;
+    width: 13vw;
+
+
+}
+
+.plus{
+    width: 2.5vw;
+    height: 2.5vw;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    background-color: #222222;
+}
+
+.exp{
+    align-content: center;
+}
+
+.icons{
+    display: flex;
+    
+}
+.playtag{
+    width: 5vw;
+    border-radius: 20px;
+    background-color: #393939;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 80%;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.playlist{
+    background-color: #121212;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+    font-family: "Inter", sans-serif;
+
+    
+
+}
+
+.sing{
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 5px;
+
+    
+}
+
+.shreya, .atif,.arjit{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    width: 22vw;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+.shreya:hover, .atif:hover,.arjit:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: left
+
+
+}
+.title{
+    color: white;
+    font-weight: 600;
+    font-size: 90%;
+    font-family: "Inter", sans-serif;
+
+}
+
+.below{
+
+    font-size: 80%;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+    height: 35vh;
+    background: linear-gradient(#1db954,#1db954c2,#1db9547e,#1db9544d,#121212);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+.green{
+    width: 4vw;
+    height:4vw;
+    border-radius: 50px;
+    background-color: #1DB954;
+    border-color: #1DB954;
+    margin: 20px 25px;
+}
+
+
+.playpic{
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+
+
+.song{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    width: 47vw;
+    height: 20vh;
+    flex-direction: column;
+    margin:auto;
+    box-sizing: border-box;
+
+}
+
+.eachsong{
+    display: flex;
+    gap: 10px;
+    width: 47vw;
+    align-items: center;
+    justify-content: left;
+    align-content: center;
+    margin-top:10px ;
+    color: rgb(200, 200, 200);
+    height: 10vw;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 0px;
+
+}
+.songcover{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 5px;
+}
+
+.sname{
+    color: white;
+    font-weight: 400;
+}
+.aname{
+    font-size: 80%;
+    font-weight: 600;
+
+
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    width: 20vw;
+
+}
+
+.num{
+    padding: 0px 10px
+}
+
+.album{
+
+    font-size: 85%;
+    font-weight: 500;
+    width: 10vw;
+
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 47vw;
+    height: 5vh;
+    margin: auto;
+    justify-content: start;
+    font-size: 85%;
+    color: rgb(200, 200, 200);
+
+}
+
+.seral{
+    padding: 0px 10px;
+}
+
+.albu{
+    padding-left: 22.5vw;
+
+}
+
+.tim{
+    padding-left: 12vw;
+
+}
+.time{
+    display: flex;
+    align-items: center;
+    padding-left:5vw ;
+    font-size: 90%;
+}
+
+.line{
+    background-color: rgb(120, 120, 120);
+    width: 47vw;
+    height: 0.02vh;
+    margin: auto;
+}
+
+.tile{
+    padding-left:10px ;
+}
+
+.down {
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    gap: 60px;
+    box-sizing: border-box;
+
+}
+
+.songdetail{
+    display: flex;
+    width: 30vw;
+    align-items: center;
+
+    
+}
+
+.downpartpic{
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 7px;
+
+}
+.imgg{
+    margin: 10px;
+}
+
+.downdet{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 7px;
+    width: 20vw;
+    height: 5vw;
+}
+
+.songname{
+    color: white;
+    font-weight: 500;
+    font-size: 80%;
+    font-family: "Inter", sans-serif;
+
+}
+
+.authorname{
+    font-size: 70%;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:rgb(151, 150, 150);
+
+}
+
+.sideimg{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10px;
+    
+}
+.sideimg1{
+    height: 22vw;
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side1{
+    width: 24vw;
+    height: 75vh;
+    color: gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #121212;
+    font-family: "Inter", sans-serif;
+    overflow-y: auto;
+    scrollbar-color:rgb(71, 71, 71)  #121212;
+}
+
+
+
+
+.sidename{
+    width: 20vw;
+    display: flex;
+    color: white;
+    margin: auto;
+    justify-content: flex-start;
+    font-family: "Inter", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    height: 5vh;
+    
+
+}
+
+.sideauthor{
+    width: 20vw;
+    display: flex;
+    color: rgb(151, 150, 150);
+    margin: 0px auto;
+    font-family: "Inter", sans-serif;
+    font-size: 90%;
+    font-weight: 600;
+    height: 5vh;
+
+
+}
+
+.eachsong:hover{
+    background-color: rgb(45, 45, 45);
+    
+}
+
+
+
+.credits{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    width: 20vw;
+    height: 53vh;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color:#212121 ;
+}
+
+.creditpic{
+    width: 20vw;
+    height: 12vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.creditname{
+    width: 18vw;
+    margin: 10px auto;
+    height: 4vh;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+}
+.about{
+    width: 18vw;
+    margin: 0px auto;
+    height: 4vh;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.descrip{
+    width: 18vw;
+    margin: 20px auto;
+    height: 5vh;
+    color:rgb(190, 190, 190);
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.listen{
+    width: 10vw;
+    margin-left: 1vw;
+    height: 5vh;
+    color:rgb(190, 190, 190);
+    font-weight: 600;
+}
+
+
+
+
+.creditlist{
+    width: 46vw;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: auto;
+    align-items: center;
+    scrollbar-color:rgb(71, 71, 71)  #121212;
+}
+
+
+
+
+.credit{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    width: 20vw;
+    height: 53vh;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color:#212121 ;
+
+}
+
+.dis{
+    display: none;
+}
