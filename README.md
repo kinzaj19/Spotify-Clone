@@ -31,14 +31,8 @@ Spotify-Clone/
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
+<img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/741a78a6-aee7-44d7-8717-f0099dfcd9de" />
 
-Example:
-
-```
-<img width="1365" height="641" alt="image" src="https://github.com/user-attachments/assets/1555c0ea-4b0a-4d37-a980-6e122ff6e104" />
-
-```
 
 ## 📦 Installation
 
