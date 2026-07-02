@@ -57,3 +57,8 @@ Contributions, suggestions, and improvements are welcome. Feel free to fork the 
 ## 📄 License
 
 This project is created for educational purposes and is not affiliated with or endorsed by Spotify.
+
+## Author
+
+The project is live at https://spotify-clone-cyan-mu-30.vercel.app/ . If you enjoyed, consider giving a star to this repository
+
